@@ -2,7 +2,7 @@
 #HW3 знакомство с облачной инфраструктурой
 
 bastion_IP = 35.210.112.164
-someinternalhost_IP=10.132.0.3
+someinternalhost_IP = 10.132.0.3
 
 #дополнительное задание
 #подключение к someinternalhost с помошью jump server
