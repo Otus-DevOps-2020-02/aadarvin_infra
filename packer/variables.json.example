@@ -1,0 +1,9 @@
+{
+    "project_id": "infra-111111",
+    "source_image_family": "ubuntu-18",
+    "image_description": "reddit-image",
+    "disk_size": "1",
+    "disk_type": "pd-standard",
+    "network": "default",
+    "tags": "reddit-puma"
+}
