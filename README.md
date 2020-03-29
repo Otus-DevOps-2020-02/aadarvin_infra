@@ -35,3 +35,14 @@ cloud compute firewall-rules create default-puma-server\
   --rules=tcp:9292 \
   --source-ranges=0.0.0.0/0 \
   --target-tags=puma-server
+
+#HW5 packer-base
+Установлен packer
+packer авторизован в gcloud gcloud auth application-default login
+создан файл с конфигурацией сервера ubuntu16.json
+файл проверен packer validate ./ubuntu16.json
+в gcloud создан сервер packer build ubuntu16.json
+в образе запущен сервер puma
+проверена доступность сервера puma http://34.89.137.186:9292/
+#самостоятельное задание
+файл ubuntu16.json доработан для использования с переменными
